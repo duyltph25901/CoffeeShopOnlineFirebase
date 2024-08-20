@@ -48,6 +48,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
     // firebase
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
+    implementation("com.google.firebase:firebase-storage")
+    implementation("com.google.firebase:firebase-database")
     def lifecycle_version = "2.8.4"
     // life cycle android
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
